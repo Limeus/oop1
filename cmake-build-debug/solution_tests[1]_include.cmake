@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Валентин/CLionProjects/oop1/cmake-build-debug/solution_tests[1]_tests.cmake")
+  include("C:/Users/Валентин/CLionProjects/oop1/cmake-build-debug/solution_tests[1]_tests.cmake")
+else()
+  add_test(solution_tests_NOT_BUILT solution_tests_NOT_BUILT)
+endif()
