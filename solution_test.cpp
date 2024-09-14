@@ -15,7 +15,6 @@ TEST(SwapABTest, EmptyString
 
 TEST(SwapABTest, OnlyA
 ) {
-// Строка, содержащая только 'a'
     std::string input = "aaaa";
     std::string expected = "bbbb";
     EXPECT_EQ(swapAB(input), expected
@@ -24,7 +23,6 @@ TEST(SwapABTest, OnlyA
 
 TEST(SwapABTest, OnlyB
 ) {
-// Строка, содержащая только 'b'
     std::string input = "bbbb";
     std::string expected = "aaaa";
     EXPECT_EQ(swapAB(input), expected
@@ -33,7 +31,6 @@ TEST(SwapABTest, OnlyB
 
 TEST(SwapABTest, MixedABC
 ) {
-// Смешанная строка с 'a', 'b' и 'c'
     std::string input = "aabacbaa";
     std::string expected = "bbabcabb";
     EXPECT_EQ(swapAB(input), expected
@@ -42,7 +39,6 @@ TEST(SwapABTest, MixedABC
 
 TEST(SwapABTest, NoChanges
 ) {
-// Строка, содержащая только 'c'
     std::string input = "ccc";
     std::string expected = "ccc";
     EXPECT_EQ(swapAB(input), expected
@@ -51,7 +47,6 @@ TEST(SwapABTest, NoChanges
 
 TEST(SwapABTest, ComplexMixed
 ) {
-// Более сложная строка
     std::string input = "abcabcabc";
     std::string expected = "bacbacbac";
     EXPECT_EQ(swapAB(input), expected
