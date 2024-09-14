@@ -1,10 +1,8 @@
 cmake_minimum_required(VERSION 3.27.8)
 project(oop1)
 
-#setup vars
 set(CMAKE_CXX_STANDARD 20)
 
-# main sources
 add_library(oop1_solution
         solution.cpp
 )
@@ -14,7 +12,6 @@ add_executable(oop1
 )
 target_link_libraries(oop1 oop1_solution)
 
-#setup googletest
 include(FetchContent)
 FetchContent_Declare(
         googletest
@@ -22,9 +19,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
-enable_testing()
 
-#test sources
 add_executable(solution_tests
         solution_test.cpp
 )
@@ -33,5 +28,7 @@ target_link_libraries(
         oop1_solution
         GTest::gtest_main
 )
+
+enable_testing()
 include(GoogleTest)
 gtest_discover_tests(solution_tests)

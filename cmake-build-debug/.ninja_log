@@ -1,15 +1,14 @@
 # ninja log v5
-5	436	7479582521019490	CMakeFiles/oop1_solution.dir/solution.cpp.obj	42ced3f5775280ee
+3	671	7479585458255526	CMakeFiles/oop1_solution.dir/solution.cpp.obj	d73852c7926f52cd
 436	481	7479582521479662	liboop1_solution.a	21e9ec7e7476503b
+3859	4265	7479585494213210	solution_tests.exe	2eeccd1297f03963
 2	539	7479582522049681	CMakeFiles/oop1.dir/main.cpp.obj	410c3e902b90f4dd
 539	604	7479582522679667	oop1.exe	3ee8e0dacbf0e32e
-3	671	7479585458255526	CMakeFiles/oop1_solution.dir/solution.cpp.obj	d73852c7926f52cd
+7	3789	7479585489393577	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	abda06abee55b65b
 672	710	7479585458655535	oop1_solution.lib	ecb340b2d0d81c1d
 8	1838	7479585469915185	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	2acc624a31ae7c91
 5	1866	7479585470185195	CMakeFiles/solution_tests.dir/solution_test.cpp.obj	efca40d3860baaf7
-7	3789	7479585489393577	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	abda06abee55b65b
 3789	3839	7479585489903588	lib/gtest.lib	b84f56db58e20cdf
 3839	3859	7479585490153590	lib/gtest_main.lib	7c3ef7325e19b7e4
-3859	4265	7479585494213210	solution_tests.exe	2eeccd1297f03963
 3859	4265	7479585494213210	solution_tests[1]_tests.cmake	2eeccd1297f03963
 3859	4265	7479585494213210	C:/Users/Валентин/CLionProjects/oop1/cmake-build-debug/solution_tests[1]_tests.cmake	2eeccd1297f03963

@@ -3,10 +3,8 @@
 #include "solution.cpp"
 
 
-// Тесты для функции swapAB
 TEST(SwapABTest, EmptyString
 ) {
-// Пустая строка
     std::string input = "";
     std::string expected = "";
     EXPECT_EQ(swapAB(input), expected
